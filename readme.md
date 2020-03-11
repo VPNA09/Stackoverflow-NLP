@@ -10,7 +10,7 @@ Coders from all levels scour the web for the best answers to common and more cha
 
 
 ## Table of Contents
-1. [Data Dictionary](###Data Dictionary) 
+1. [Data Dictionary](https://github.com/VPNA09/Stackoverflow-NLP/blob/master/readme.md#data-dictionary) 
 2. [Data Files]
 3. [Data Aquistion]
 	- [Data Cleaning] 
