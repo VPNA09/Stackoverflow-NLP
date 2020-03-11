@@ -4,7 +4,6 @@ By: Vanessa Alvarado
 
 <p align = "center">
   <img src="images/Stack Overflow Landing Photo.png"/><br>
-  <>Stack Overflow Landing Page</>
 </p>
 
 
