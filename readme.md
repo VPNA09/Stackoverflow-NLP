@@ -26,7 +26,7 @@ Programmers from all levels scour the web for the best answers for common to mor
 </p>
 
 
-It's a fairly easy process to ask question on Stack Overflow. As I browsed through the website I noticed that not all posts had tags associated with them. There is no mandatory requirement to tag your question. To increase your odds of getting an answer to your coding dilema, it would be in your best interest to add any and all relevent tags. To increase Stack Overflows answered questions quota I will use Natural Language Processing (NLP) to create a predictve coding language model.  
+It's a fairly easy process to ask question on Stack Overflow. As I browsed through the website I noticed that not all posts had tags associated with them. There is no mandatory requirement to tag your question. To increase your odds of getting an answer to your coding dilema, it would be in your best interest to add any and all relevent tags. To increase Stack Overflows answered questions quota I will use Natural Language Processing(NLP) to create a predictve coding language tagging model.  
 
 
 
@@ -66,6 +66,17 @@ Data files are too large upload to GitHub. The following links are zipped data f
 
 ### Data Acquisition
 - Where did you get your data? / How did you acquire your data?
+Stack Overflows parent company, [Stack Exchange](https://stackexchange.com/) releases "data dumps" of all its publically available content around every 3 months via [archive.org](https://archive.org/details/stackexchange). The data is an anonymized dump of all user-contributed content on the Stack Exchange network. Stack Overflow has several XML files zipped and split up into the following categories: 
+- Badges
+- Comments
+- PostHistory 
+- PostLinks
+- Posts
+- Tags
+- Users
+- Votes 
+
+The items of interest were: PostHistory and Posts with 25.7GB and 14.6GB zipped files   
 
 ### Data Cleaning
 #### 2019 Weekly Data
