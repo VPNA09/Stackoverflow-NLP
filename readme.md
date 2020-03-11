@@ -8,6 +8,11 @@ By: Vanessa Alvarado
 ## Problem Statement
 Coders from all levels scour the web for the best answers to common and more challenging tasks. More times than not, Google directs you to a Stack Overflow link: 
 
+<p align = "center">
+  <img src="images/google stackoverflow search.png"/><br>
+  <b>Google Search: Stack Overflow</b>
+</p>
+
 
 ## Table of Contents
 1. [Data Dictionary](https://github.com/VPNA09/Stackoverflow-NLP/blob/master/readme.md#data-dictionary) 
