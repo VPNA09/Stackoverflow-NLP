@@ -1,8 +1,12 @@
-# Stackoverflow Predictive Tagging 
+# Stack Overflow NLP Predictive Modeling
 
 By: Vanessa Alvarado
 
+## Background Information 
+- Summarize Stackoverflow 
+
 ## Problem Statement
+Coders from all levels scour the web for the best answers to common and more challenging tasks. More times than not, Google directs you to a Stack Overflow link: 
 
 
 ## Table of Contents
@@ -15,7 +19,14 @@ By: Vanessa Alvarado
 5. [Modelling]
 
 ### Data Dictionary
- 
+|Feature|Type|Description|
+|---|---|---|
+|id|int|Stackoverflow unique question identifier |
+|CreationDate|datetime|Question creation date|
+|Title|obj|Title for user submitted question|
+|Body|obj|Original questions|
+|A|int|A|
+|B|object|B| 
 
 ### Data Files
 Data files were too big to be easily uploaded to GitHub, so linked zipped files are provided: 
@@ -29,7 +40,7 @@ Data files were too big to be easily uploaded to GitHub, so linked zipped files 
 ## Executive Summary
 
 ### Data Acquisition
-
+- Where did you get your data? / How did you acquire your data?
 
 ### Data Cleaning
 **2019 Weekly Data** 
@@ -42,14 +53,24 @@ Data files were too big to be easily uploaded to GitHub, so linked zipped files 
 - 
 
 ### Feature Engineering
+- How did you transform or engineer your data? Why?
 
 
 ### Modeling
-
+- What are your metrics?
+- How did you optimize hyperparameters?
+- How did you select your model?
 
 ### Conclusions and Limitations
 - What were your findings?
 - What risks/limitations/assumptions affect these findings?
+- Summarize your statistical analysis, including:
+	- implementation
+	- evaluation
+	- inference
 
 
 ### Future Work
+- How can I build off what I have? 
+	- Cloud commuting
+	- Different NLP techniques 
