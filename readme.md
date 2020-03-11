@@ -46,12 +46,16 @@ It's a fairly easy process to ask question on Stack Overflow. As I browsed throu
 |---|---|---|
 |id|int|Unique numeric identifier for Stack Overflow question |
 |CreationDate|datetime|Creation date for Stack Overflow question|
-|Title|obj|User generated title for Stack Overflow question|
-|Body|obj|Original question: including html artifacts, numbers etc.|
-|A|int|A|
-|B|object|B|
-|A|int|A|
-|B|object|Will add more|  
+|Title|object|User generated title for Stack Overflow question|
+|Body|object|Original question: including html artifacts, numbers etc.|
+|Tags|object|Given tags for questions|
+|ViewCount|int|Number of views|
+|AnswerCount|int|Number of confirmed answers|
+|CommentCount|int|Number of comments|  
+|target_tags|object|Created this column to find intersection between target sets and listed tags. Used this column to drop rows that didn't have any tags of interest.|
+|overlap_tags|object|Created this column to check and see which languages are possibly overlapping with other langagues and iteself. Ex: SQL and Python or Python and Python-3.x|
+|target_class|int|Created this column for my target classes that will be used for modeling|
+|body_clean|object|Cleaned up version of the body for modeling|  
 
 ### Data Files
 Data files are too large upload to GitHub. The following links are zipped data files: 
