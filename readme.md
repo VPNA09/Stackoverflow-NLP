@@ -26,7 +26,7 @@ Programmers from all levels scour the web for the best answers for common to mor
 </p>
 
 
-It's a fairly easy process to ask question on Stack Overflow. As I browsed through the website I noticed that not all posts had tags associated with them. There is no mandatory requirement to tag your question. To increase your odds of getting an answer to your coding dilema, it would be in your best interest to add any and all relevent tags.  
+It's a fairly easy process to ask question on Stack Overflow. As I browsed through the website I noticed that not all posts had tags associated with them. There is no mandatory requirement to tag your question. To increase your odds of getting an answer to your coding dilema, it would be in your best interest to add any and all relevent tags. To increase Stack Overflows answered questions quota I will use Natural Language Processing (NLP) to create a predictve coding language model.  
 
 
 
@@ -80,7 +80,7 @@ Data files are too large upload to GitHub. The following links are zipped data f
 ### Feature Engineering
 - How did you transform or engineer your data? Why?
 
-### Exploratory Data Analysis
+### Exploratory Data Analysis (EDA)
 - 
 - 
 
@@ -93,6 +93,8 @@ Data files are too large upload to GitHub. The following links are zipped data f
 ### Conclusions and Limitations
 - What were your findings?
 - What risks/limitations/assumptions affect these findings?
+	- Limitations: 
+		- 
 - Summarize your statistical analysis, including:
 	- implementation
 	- evaluation
