@@ -1,17 +1,29 @@
-# Stack Overflow NLP Predictive Modeling
+# Stack Overflow Predictive Modeling
 
 By: Vanessa Alvarado
 
-## Background Information 
-- Summarize Stackoverflow 
+<p align = "center">
+  <img src="images/Stack Overflow Landing Photo.png"/><br>
+  <b>Stack Overflow Landing Page Photo</b>
+</p>
+
+
+## Background 
+- Summarize Stack Overflow:
+	- "Stack Overflow is the largest, most trusted online community for developers to learn, share​ ​their programming ​knowledge, and build their careers."
+	- "Stack Overflow is a question and answer site for professional and enthusiast programmers." 
+	- "Stack Overflow is an open community for anyone that codes. We help you get answers to your toughest coding questions, share knowledge with your coworkers in private, and find your next dream job."
+	- "Stack Exchange (Stack Overflows parent company) is a network of question-and-answer (Q&A) websites on topics in diverse fields, each site covering a specific topic, where questions, answers, and users are subject to a reputation award process. The reputation system allows the sites to be self-moderating.[7] As of August 2019, the three most actively-viewed sites in the network are Stack Overflow, Super User, and Ask Ubuntu.[8] " -- Wikipedia
 
 ## Problem Statement
-Coders from all levels scour the web for the best answers to common and more challenging tasks. More times than not, Google directs you to a Stack Overflow link: 
+Programmers from all levels scour the web for the best answers for common to more challenging tasks. More times than not, Google directs you to a Stack Overflow [link](https://stackoverflow.com/questions/53645882/pandas-merging-101): 
 
 <p align = "center">
   <img src="images/google stackoverflow search.png"/><br>
-  <b>Google Search: Stack Overflow</b>
+  <b>Coding Google Search --> Stack Overflow</b>
 </p>
+
+
 
 
 ## Table of Contents
@@ -28,14 +40,14 @@ Coders from all levels scour the web for the best answers to common and more cha
 ### Data Dictionary
 |Feature|Type|Description|
 |---|---|---|
-|id|int|Stackoverflow unique question identifier |
-|CreationDate|datetime|Question creation date|
-|Title|obj|Title for user submitted question|
-|Body|obj|Original questions|
+|id|int|Unique numeric identifier for Stack Overflow question |
+|CreationDate|datetime|Creation date for Stack Overflow question|
+|Title|obj|User generated title for Stack Overflow question|
+|Body|obj|Original question: including html artifacts, numbers etc.|
 |A|int|A|
 |B|object|B|
 |A|int|A|
-|B|object|B|  
+|B|object|Will add more|  
 
 ### Data Files
 Data files are too large upload to GitHub. The following links are zipped data files: 
