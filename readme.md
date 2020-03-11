@@ -11,14 +11,14 @@ Coders from all levels scour the web for the best answers to common and more cha
 
 ## Table of Contents
 1. [Data Dictionary](https://github.com/VPNA09/Stackoverflow-NLP/blob/master/readme.md#data-dictionary) 
-2. [Data Files]
-3. [Data Aquistion]
-	- [Data Cleaning] 
-4. [Feature Engineering]  
-5. [Exploratory Data Analysis]
-6. [Modelling]
-7. [Conclusions & Limitations] 
-8. [Future Work] 
+2. [Data Files](https://github.com/VPNA09/Stackoverflow-NLP/blob/master/readme.md#data-files)
+3. [Data Aquistion](https://github.com/VPNA09/Stackoverflow-NLP/blob/master/readme.md#data-acquisition)
+	- [Data Cleaning](https://github.com/VPNA09/Stackoverflow-NLP/blob/master/readme.md#data-cleaning) 
+4. [Feature Engineering](https://github.com/VPNA09/Stackoverflow-NLP/blob/master/readme.md#feature-engineering)  
+5. [Exploratory Data Analysis](https://github.com/VPNA09/Stackoverflow-NLP/blob/master/readme.md#exploratory-data-analysis)
+6. [Modeling](https://github.com/VPNA09/Stackoverflow-NLP/blob/master/readme.md#modeling)
+7. [Conclusions & Limitations](https://github.com/VPNA09/Stackoverflow-NLP/blob/master/readme.md#conclusions-and-limitations) 
+8. [Future Work](https://github.com/VPNA09/Stackoverflow-NLP/blob/master/readme.md#future-work) 
 
 ### Data Dictionary
 |Feature|Type|Description|
