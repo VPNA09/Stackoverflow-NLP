@@ -10,13 +10,15 @@ Coders from all levels scour the web for the best answers to common and more cha
 
 
 ## Table of Contents
-1. Data Gathering
-    1. 
-2. Data Cleaning
-    1. 
-3. [Combine Data]
-4. [Exploratory Data Analysis]
-5. [Modelling]
+1. [Data Dictionary](###Data Dictionary) 
+2. [Data Files]
+3. [Data Aquistion]
+	- [Data Cleaning] 
+4. [Feature Engineering]  
+5. [Exploratory Data Analysis]
+6. [Modelling]
+7. [Conclusions & Limitations] 
+8. [Future Work] 
 
 ### Data Dictionary
 |Feature|Type|Description|
@@ -26,10 +28,12 @@ Coders from all levels scour the web for the best answers to common and more cha
 |Title|obj|Title for user submitted question|
 |Body|obj|Original questions|
 |A|int|A|
-|B|object|B| 
+|B|object|B|
+|A|int|A|
+|B|object|B|  
 
 ### Data Files
-Data files were too big to be easily uploaded to GitHub, so linked zipped files are provided: 
+Data files are too large upload to GitHub. The following links are zipped data files: 
 - 2019 Weekly csv files (zipped)
     - [Weeks 1 - 20](https://drive.google.com/open?id=1uttbh17hfhnfMLqnajbw3yX7LC27yQFY)
     - [Weeks 21-40](https://drive.google.com/open?id=1Isrpl4XX-Sv3CDmI2eNI26fX8Hu98mt4)
@@ -43,17 +47,19 @@ Data files were too big to be easily uploaded to GitHub, so linked zipped files 
 - Where did you get your data? / How did you acquire your data?
 
 ### Data Cleaning
-**2019 Weekly Data** 
+#### 2019 Weekly Data
 - 
 
-**2019 Combined Data**   
+#### 2019 Combined Data  
 - 
 
-**Final (For Modeling)** 
+#### Final (For Modeling) 
 - 
 
 ### Feature Engineering
 - How did you transform or engineer your data? Why?
+
+### Exploratory Data Analysis
 
 
 ### Modeling
