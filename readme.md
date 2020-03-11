@@ -4,7 +4,7 @@ By: Vanessa Alvarado
 
 <p align = "center">
   <img src="images/Stack Overflow Landing Photo.png"/><br>
-  <b>Stack Overflow Landing Page Photo</b>
+  <>Stack Overflow Landing Page</>
 </p>
 
 
@@ -26,10 +26,12 @@ Programmers from all levels scour the web for the best answers for common to mor
 
 
 
+
+
 ## Table of Contents
 1. [Data Dictionary](https://github.com/VPNA09/Stackoverflow-NLP/blob/master/readme.md#data-dictionary) 
 2. [Data Files](https://github.com/VPNA09/Stackoverflow-NLP/blob/master/readme.md#data-files)
-3. [Data Aquistion](https://github.com/VPNA09/Stackoverflow-NLP/blob/master/readme.md#data-acquisition)
+3. [Data Acquisition](https://github.com/VPNA09/Stackoverflow-NLP/blob/master/readme.md#data-acquisition)
 	- [Data Cleaning](https://github.com/VPNA09/Stackoverflow-NLP/blob/master/readme.md#data-cleaning) 
 4. [Feature Engineering](https://github.com/VPNA09/Stackoverflow-NLP/blob/master/readme.md#feature-engineering)  
 5. [Exploratory Data Analysis](https://github.com/VPNA09/Stackoverflow-NLP/blob/master/readme.md#exploratory-data-analysis)
@@ -77,6 +79,8 @@ Data files are too large upload to GitHub. The following links are zipped data f
 - How did you transform or engineer your data? Why?
 
 ### Exploratory Data Analysis
+- 
+- 
 
 
 ### Modeling
