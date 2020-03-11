@@ -15,7 +15,7 @@ By: Vanessa Alvarado
 	- "Stack Exchange (Stack Overflows parent company) is a network of question-and-answer (Q&A) websites on topics in diverse fields, each site covering a specific topic, where questions, answers, and users are subject to a reputation award process. The reputation system allows the sites to be self-moderating.[7] As of August 2019, the three most actively-viewed sites in the network are Stack Overflow, Super User, and Ask Ubuntu.[8] " -- Wikipedia
 
 ## Problem Statement
-Programmers from all levels scour the web for the best answers for common to more challenging tasks. More times than not, Google directs you to a Stack Overflow [link](https://stackoverflow.com/questions/53645882/pandas-merging-101): 
+Programmers from all levels scour the web for the best answers for common to more challenging tasks. More times than not, Google directs you to a Stack Overflow [forum](https://stackoverflow.com/questions/53645882/pandas-merging-101): 
 
 <p align = "center">
   <img src="images/google stackoverflow search.png"/><br>
@@ -26,6 +26,7 @@ Programmers from all levels scour the web for the best answers for common to mor
 </p>
 
 
+It's a fairly easy process to ask question on Stack Overflow. As I browsed through the website I noticed that not all posts had tags associated with them. There is no mandatory requirement to tag your question. To increase your odds of getting an answer to your coding dilema, it would be in your best interest to add any and all relevent tags.  
 
 
 
