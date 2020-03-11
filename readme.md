@@ -66,15 +66,17 @@ Data files are too large upload to GitHub. The following links are zipped data f
 
 ### Data Acquisition
 - Where did you get your data? / How did you acquire your data?
+
+
 Stack Overflows parent company, [Stack Exchange](https://stackexchange.com/) releases "data dumps" of all its publically available content around every 3 months via [archive.org](https://archive.org/details/stackexchange). The data is an anonymized dump of all user-contributed content on the Stack Exchange network. Stack Overflow has several XML files zipped and split up into the following categories: 
-- Badges
-- Comments
-- PostHistory 
-- PostLinks
-- Posts
-- Tags
-- Users
-- Votes 
+	- Badges
+	- Comments
+	- PostHistory 
+	- PostLinks
+	- Posts
+	- Tags
+	- Users
+	- Votes 
 
 The items of interest were: PostHistory and Posts with 25.7GB and 14.6GB zipped files   
 
