@@ -19,9 +19,11 @@ Programmers from all levels scour the web for the best answers for common to mor
 
 <p align = "center">
   <img src="images/google stackoverflow search.png"/><br>
-  <b>Coding Google Search --> Stack Overflow</b>
 </p>
 
+<p align = "center">
+  <img src="images/stackoverflow pandas merging.png"/><br>
+</p>
 
 
 
