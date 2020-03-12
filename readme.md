@@ -26,7 +26,7 @@ Programmers from all levels scour the web for the best answers for common to mor
 </p>
 
 
-It's a fairly easy process to ask question on Stack Overflow. As I browsed through the website I noticed that not all posts had tags associated with them. There is no mandatory requirement to tag your question. To increase your odds of getting an answer to your coding dilema, it would be in your best interest to add any and all relevent tags. To increase Stack Overflows answered questions quota I will use Natural Language Processing(NLP) to create a predictve coding language tagging model.  
+It's a fairly easy process to ask question on Stack Overflow. As I browsed through the website I noticed that not all posts had tags associated with them. There is no mandatory requirement to tag your question. To increase your odds of getting an answer to your coding dilema, it would be in your best interest to add any and all relevent tags. To increase Stack Overflows answered questions quota I will use Natural Language Processing(NLP) to create a predictve coding language tagging model. 
 
 
 
@@ -69,7 +69,7 @@ Data files are too large upload to GitHub. The following links are zipped data f
 ## Executive Summary
 
 ### Data Acquisition
-- Where did you get your data? / How did you acquire your data?
+- Where did you get your data? / How did you acquire your data? (what did I actually end up with)
 
 
 Stack Overflows parent company, [Stack Exchange](https://stackexchange.com/) releases "data dumps" of all its publically available content around every 3 months via [archive.org](https://archive.org/details/stackexchange). The data is an anonymized dump of all user-contributed content on the Stack Exchange network. Stack Overflow has several XML files zipped and split up into the following categories: 
@@ -104,6 +104,8 @@ The items of interest were: PostHistory and Posts with 25.7GB and 14.6GB zipped 
 
 ### Modeling
 - What are your metrics?
+	- Accuracy FN and FP are weighted evenly so you might not want 
+	- if baseline is really high, inbalanced classes. So you might not use accuracy 
 - How did you optimize hyperparameters?
 - How did you select your model?
 
@@ -117,8 +119,15 @@ The items of interest were: PostHistory and Posts with 25.7GB and 14.6GB zipped 
 	- evaluation
 	- inference
 
+<p align = "center">
+  <img src="images/Target languages % weekly questions.png"/><br>
+  <b>Percent Weekly Questions for Target Languges</b>
+</p>
+
+
 
 ### Future Work
 - How can I build off what I have? 
 	- Cloud commuting
 	- Different NLP techniques 
+- Other data aquisition techniques 
