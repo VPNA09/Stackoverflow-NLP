@@ -7,6 +7,11 @@ By: Vanessa Alvarado
 </p>
 
 
+<p align = "center">
+  <img src="images/wordcloud_topwords.png"/><br>
+    <b>TEST! Take out once done</b>
+</p>
+
 ## Background 
 - Summarize Stack Overflow:
 	- "Stack Overflow is the largest, most trusted online community for developers to learn, share​ ​their programming ​knowledge, and build their careers."
@@ -120,7 +125,7 @@ The items of interest were: PostHistory and Posts with 25.7GB and 14.6GB zipped 
 	- inference
 
 <p align = "center">
-  <img src="images/Target languages % weekly questions.png"/><br>
+  <img src="images/target_languages_pctweekly_questions.png"/><br>
   <b>Percent Weekly Questions for Target Languges</b>
 </p>
 
