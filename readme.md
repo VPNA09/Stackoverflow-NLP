@@ -120,7 +120,7 @@ Data files are too large upload to GitHub. The following links are zipped data f
     - [Weeks 21-40](https://drive.google.com/open?id=1Isrpl4XX-Sv3CDmI2eNI26fX8Hu98mt4)
     - [Weeks 41-52](https://drive.google.com/open?id=15FEnPmx_LaP9_xpxB3zz6BMqFDgTbVc6)
  - [2019 Combined Weekly csv file (zipped)](https://drive.google.com/open?id=1OPgd2J14mfQkCpvhz9O8qFbql0FUpDaf)
- - [Final Version, used for modeling (zipped)](https://drive.google.com/open?id=1zDhE4GE45HkwbPjMCbw0S36UxoWXHqX5) 
+ - [Final Version, used for modeling (zipped)](https://drive.google.com/open?id=1wvTYhFZFdC8sFVLdlCLmyiyWhG42aI_t) 
 
 
 
