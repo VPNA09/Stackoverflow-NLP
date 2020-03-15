@@ -37,9 +37,13 @@ Programmers from all levels scour the web for the best answers for common to mor
   <img src="images/google stackoverflow search.png"/><br>
 </p>
 
+<!---
+	COMMENT THIS OUT TO SEE IF IT LOOKS BETTER WITH OUT THIS ADDITIONAL IMAGE
+
 <p align = "center">
   <img src="images/stackoverflow pandas merging.png"/><br>
 </p>
+--->
 
 
 It's a fairly easy process to ask question on Stack Overflow. As I browsed through the website I noticed that not all posts had tags associated with them. There is no mandatory requirement to tag your question. To increase your odds of getting an answer to your coding dilema, it would be in your best interest to add any and all relevent tags. To increase Stack Overflows answered questions quota I will use Natural Language Processing(NLP) to create a predictve coding language tagging model. 
