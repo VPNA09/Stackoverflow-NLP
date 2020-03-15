@@ -2,6 +2,10 @@
 
 By: Vanessa Alvarado
 
+<p align = "center">
+  <img src="images/Stack Overflow Landing Photo.png"/><br>
+</p>
+
 ## Table of Contents
 1. [Background](https://github.com/VPNA09/Stackoverflow-NLP/blob/master/readme.md#background)
 2. [Problem Statement](https://github.com/VPNA09/Stackoverflow-NLP/blob/master/readme.md#problem-statement)
@@ -16,11 +20,6 @@ By: Vanessa Alvarado
 	- [Data Dictionary](https://github.com/VPNA09/Stackoverflow-NLP/blob/master/readme.md#data-dictionary)
 	- [Data Files](https://github.com/VPNA09/Stackoverflow-NLP/blob/master/readme.md#data-files)
 5. [Conclusions & Future Work](https://github.com/VPNA09/Stackoverflow-NLP/blob/master/readme.md#conclusions-and-future-work) 
-
-
-<p align = "center">
-  <img src="images/Stack Overflow Landing Photo.png"/><br>
-</p>
 
 
 ## Background 
