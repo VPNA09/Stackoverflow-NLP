@@ -100,12 +100,19 @@ I then was interested in looking at bigrams. I wanted to see which words were us
 
 ### Modeling
 
-My metrics for scoring my models are based on R^2 accuracys. My 
-- What are your metrics?
-	- Accuracy FN and FP are weighted evenly so you might not want 
-	- if baseline is really high, inbalanced classes. So you might not use accuracy 
-- How did you optimize hyperparameters?
-- How did you select your model?
+My metrics used for scoring my models are R^2 values. My baseline accuracy was 55.23% for the majority class, Python. My classes weren't completely balanced but at the same time they weren't super unbalanced, so I felt comfortable using R^2 values to base my accuracy of my models. 
+
+I implemented 3 different types of models: 
+	- Countvectorizer + Logistic Regression 
+	- TF-IDF Vectorizer + Logisitc Regression 
+	- TF-IDF Vectorizer + Decision Trees 
+
+For all 3 models, I utilized GridSearch to cycle through different variations in hyperparameters for the vectorizer and estimator. I tried to keep the number hyperparameter to search over to a minimum to help cut down on processing time.  
+
+The model I would suggest to use for production at this time would be TF-IDF + Logisitc Regression. Here is a breakdown of the accuracies between all 3 models: 
+<p align = "center">
+  <img src="images/Model Accuracy Table.png"/><br>
+</p>
 
 
 ## Data 
@@ -150,7 +157,6 @@ Data files are too large upload to GitHub. The following links are zipped data f
 ### Presentation
 
 [Slides](https://docs.google.com/presentation/d/1sM4dFCUC8c6uHMRMuLTOqkMOfSPV2sF6Grvu7DE_70k/edit?usp=sharing)
-
 
 
 ## Conclusions and Future Work 
