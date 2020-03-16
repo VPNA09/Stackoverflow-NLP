@@ -18,7 +18,7 @@ By: Vanessa Alvarado
 	- [Notebooks](https://github.com/VPNA09/Stackoverflow-NLP/blob/master/readme.md#notebooks)
 	- [Data Dictionary](https://github.com/VPNA09/Stackoverflow-NLP/blob/master/readme.md#data-dictionary)
 	- [Data Files](https://github.com/VPNA09/Stackoverflow-NLP/blob/master/readme.md#data-files)
-	- [Slides]()
+	- [Presentation](https://github.com/VPNA09/Stackoverflow-NLP#presentation)
 5. [Conclusions & Future Work](https://github.com/VPNA09/Stackoverflow-NLP/blob/master/readme.md#conclusions-and-future-work) 
 
 
@@ -147,9 +147,9 @@ Data files are too large upload to GitHub. The following links are zipped data f
  - [2019 Combined Weekly csv file (zipped)](https://drive.google.com/open?id=1OPgd2J14mfQkCpvhz9O8qFbql0FUpDaf)
  - [Final Version, used for modeling (zipped)](https://drive.google.com/open?id=1wvTYhFZFdC8sFVLdlCLmyiyWhG42aI_t) 
 
-### Slides
-TEST
-[Presentation](https://docs.google.com/presentation/d/1sM4dFCUC8c6uHMRMuLTOqkMOfSPV2sF6Grvu7DE_70k/edit?usp=sharing)
+### Presentation
+
+[Slides](https://docs.google.com/presentation/d/1sM4dFCUC8c6uHMRMuLTOqkMOfSPV2sF6Grvu7DE_70k/edit?usp=sharing)
 
 
 
