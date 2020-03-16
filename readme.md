@@ -23,15 +23,17 @@ By: Vanessa Alvarado
 
 
 ## Background 
-- Summarize Stack Overflow:
-	- "Stack Overflow is the largest, most trusted online community for developers to learn, share​ ​their programming ​knowledge, and build their careers."
-	- "Stack Overflow is a question and answer site for professional and enthusiast programmers." 
+### Stack Overflow
+Stack Overflow is an online community for developers to learn and share​ ​their programming ​knowledge.  
+
+<!---
 	- "Stack Overflow is an open community for anyone that codes. We help you get answers to your toughest coding questions, share knowledge with your coworkers in private, and find your next dream job."
-	- "Stack Exchange (Stack Overflows parent company) is a network of question-and-answer (Q&A) websites on topics in diverse fields, each site covering a specific topic, where questions, answers, and users are subject to a reputation award process. The reputation system allows the sites to be self-moderating.[7] As of August 2019, the three most actively-viewed sites in the network are Stack Overflow, Super User, and Ask Ubuntu.[8] " -- Wikipedia
+
 - Summarize NLP ? 
+--->
 
 ## Problem Statement
-Programmers from all levels scour the web for answers for common to more challenging tasks. More times than not, Google directs you to a Stack Overflow [forum](https://stackoverflow.com/questions/53645882/pandas-merging-101): 
+There isn't one programmer that has all the answers to every coding question. When you have a question on how to properly merge dataframes more often than not, you will google it and will most likely be directed to a Stack Overflow [forum](https://stackoverflow.com/questions/53645882/pandas-merging-101): 
 
 <p align = "center">
   <img src="images/google stackoverflow search.png"/><br>
@@ -46,7 +48,11 @@ Programmers from all levels scour the web for answers for common to more challen
 --->
 
 
-It's a fairly easy process to ask question on Stack Overflow. As I browsed through the website I noticed that not all posts had tags associated with them. There is no mandatory requirement to tag your question. To increase your odds of getting an answer to your coding dilema, it would be in your best interest to add any and all relevent tags. If Stack Overflow implemented a tagging suggestions system based on your question for easy access answered questions quota I will use Natural Language Processing(NLP) to create a predictve coding language tagging model. 
+If you are lucky, there is a well documented section with answers that you can use for your task. Sometimes, you can't find the answer so you'll have to post to Stack Overflow. 
+
+As I browsed through the website I noticed that not all posts had tags associated with them. There is no mandatory requirement to tag your question. To increase your odds of getting an answer to your coding dilema, it would be in your best interest to add any and all relevent tags. 
+
+If Stack Overflow implemented a tagging suggestions system based on your question for easy access answered questions quota I will use Natural Language Processing(NLP) to create a predictve coding language tagging model. 
 
 - Stackoverflow always suggests that you search their website before asking a new question, see if your question has already been answered. If you aren't able to find the answer you need, you can go ahead and ask a question. When you ask a question on Stackoverflow, once you start writing your titile you are given a "similar questions" suggestion box. to help guide you to the answer to your question or something similar.  
 
