@@ -71,18 +71,20 @@ Stack Overflows parent company, [Stack Exchange](https://stackexchange.com/) rel
 
 The items of interest were: PostHistory and Posts with 25.7GB and 14.6GB zipped files   
 
+Stackoverflow Query 
+
+
 ### Data Cleaning
 
 Thanfully there wasn't much cleaning that needed to be done to my data since I was the one to query the data. I picked, what I felt would be the most useful information for my project in addtion to columns that could be interesting to use for any future work. 
 
 To streamline the process of combining 52 weeks of data I created a function to do the work. The output was a csv file with over 1.8 million rows of data. 
 
-Next step was to clean this .csv file to only include my "target" languages: SQL, Scala, R, Julia, C++ and Python.  
- 
-- 
+Next step was to clean this .csv file to only include my "target" languages: SQL, Scala, R, Julia, C++ and Python. Taking out unnecesary languages brought my row count down to approximately 460,000. That was about a 75% loss of data. I wasn't too concerned about such a large loss of data since having over 400,000 rows would still be enough for the different modeling techniques I wanted to use. 
 
-#### Final (For Modeling) 
-- 
+I noticed there were a fair amount of tags that had overlapping languages. For example, there were questions that had both the R and Python tags or SQL and Python. For this first iteration of my project I decided not to drop those rows. Some of the overlapping was within languages while others crossed languages, which makes sense because some coders will use SQL and Python together. I decided to take the first tag in the list of tags and use that to classify the question. This is something I can look into fixing for future work on this project.    
+
+Since I am going to use NLP for modeling I knew I was going to need to clean the "body" of the data. I created a function that used BeautifulSoup to remove the majority of HTML tag artifacts. Then it removed any non-letter characters and lowercased the remaining letters. Now my data was ready for EDA.  
 
 <!---### Feature Engineering
 - How did you transform or engineer your data? Why?
@@ -90,7 +92,8 @@ Next step was to clean this .csv file to only include my "target" languages: SQL
 --->
 
 ### Exploratory Data Analysis (EDA)
-- 
+
+Once I was able to create a numeric classification column to indicate how I wanted to classify each question I was ready to explore the data and see what other insights I could find.  
 - 
 
 
