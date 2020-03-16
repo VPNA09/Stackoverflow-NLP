@@ -110,9 +110,12 @@ I implemented 3 different types of models:
 For all 3 models, I utilized GridSearch to cycle through different variations in hyperparameters for the vectorizer and estimator. I tried to keep the number hyperparameter to search over to a minimum to help cut down on processing time.  
 
 The model I would suggest to use for production at this time would be TF-IDF + Logisitc Regression. Here is a breakdown of the accuracies between all 3 models: 
+
 <p align = "center">
   <img src="images/Model Accuracy Table.png"/><br>
 </p>
+
+I was happy to see that my model's weren't super overfit which made it easy to choose the TF-IDF + Logistic Regression model since it had the highest accuracy over the other two. 
 
 
 ## Data 
