@@ -93,6 +93,11 @@ The items of interest were: PostHistory and Posts with 25.7GB and 14.6GB zipped 
 
 
 ## Data 
+<p align = "center">
+  <img src="images/wordcloud_topwords4.png"/><br>
+   <>Top Words Used</>
+</p>
+
 
 ### Notebooks
 1. [01 Combine Weekly .csv's](https://github.com/VPNA09/Stackoverflow-NLP/blob/master/code/01%20combine_weekly2019.ipynb) 
@@ -115,6 +120,8 @@ The items of interest were: PostHistory and Posts with 25.7GB and 14.6GB zipped 
 |overlap_tags|object|Created this column to check and see which languages are possibly overlapping with other langagues and iteself. Ex: SQL and Python or Python and Python-3.x|
 |target_class|int|Created this column for my target classes that will be used for modeling|
 |body_clean|object|Cleaned up version of the body for modeling|  
+|body_length|int|Question word count| 
+
 
 ### Data Files
 Data files are too large upload to GitHub. The following links are zipped data files: 
