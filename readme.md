@@ -18,6 +18,7 @@ By: Vanessa Alvarado
 	- [Notebooks](https://github.com/VPNA09/Stackoverflow-NLP/blob/master/readme.md#notebooks)
 	- [Data Dictionary](https://github.com/VPNA09/Stackoverflow-NLP/blob/master/readme.md#data-dictionary)
 	- [Data Files](https://github.com/VPNA09/Stackoverflow-NLP/blob/master/readme.md#data-files)
+	- [Slides]()
 5. [Conclusions & Future Work](https://github.com/VPNA09/Stackoverflow-NLP/blob/master/readme.md#conclusions-and-future-work) 
 
 
@@ -88,11 +89,18 @@ Since I am going to use NLP for modeling I knew I was going to need to clean the
 
 ### Exploratory Data Analysis (EDA)
 
-Once I was able to create a numeric classification column to indicate how I wanted to classify each question I was ready to explore the data and see what other insights I could find.  
-- 
+Once I was able to create a numeric classification column to indicate how I wanted to classify each question I was ready to explore the data and see what other insights I could find. 
+
+I found that the average length of a question was about 200 words. That would be my "body_clean" columns, so that was with out any html tags, numbers, or extra miscellaneous characters. The standard deviation was pretty high, about 200. I did notice that 75% of the questions were under 238 words, which means that the majority of the data shows that most questions were under 238 words. 
+
+Next I decided to look into the most used words for the entire corpus, then look at each individual langugaes most used words. Top 5 words used were: data, self, id, file, and code. For each langaguge their top words used also seemed to make sense. For instance, some top words for Python were: import, print, list and return. 
+
+I then was interested in looking at bigrams. I wanted to see which words were used together the most. The bigrams didn't really offer great insights into the data as I would have liked. It showed me that maybe for future work I can consider doing more cleaning on the corpus to get rid of words that repeat themselves like: na na, nan nan and df df. The SQL bigrams did show that words like: sql server, inner join  and create table would make sense to be used alot for SQL questions.   
 
 
 ### Modeling
+
+My metrics for scoring my models are based on R^2 accuracys. My 
 - What are your metrics?
 	- Accuracy FN and FP are weighted evenly so you might not want 
 	- if baseline is really high, inbalanced classes. So you might not use accuracy 
@@ -139,6 +147,10 @@ Data files are too large upload to GitHub. The following links are zipped data f
  - [2019 Combined Weekly csv file (zipped)](https://drive.google.com/open?id=1OPgd2J14mfQkCpvhz9O8qFbql0FUpDaf)
  - [Final Version, used for modeling (zipped)](https://drive.google.com/open?id=1wvTYhFZFdC8sFVLdlCLmyiyWhG42aI_t) 
 
+### Slides
+
+[Presentation](https://docs.google.com/presentation/d/1sM4dFCUC8c6uHMRMuLTOqkMOfSPV2sF6Grvu7DE_70k/edit?usp=sharing)
+
 
 
 ## Conclusions and Future Work 
@@ -151,7 +163,7 @@ Data files are too large upload to GitHub. The following links are zipped data f
 - Summarize your statistical analysis, including:
 	- implementation
 	- evaluation
-	- inference
+	- inference *** python language 
 
 <p align = "center">
   <img src="images/target_languages_pctweekly_questions.png"/><br>
@@ -164,3 +176,4 @@ Data files are too large upload to GitHub. The following links are zipped data f
 	- Cloud commuting
 	- Different NLP techniques 
 - Other data aquisition techniques 
+- to better answer this question, 
