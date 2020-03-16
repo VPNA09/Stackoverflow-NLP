@@ -12,7 +12,7 @@ By: Vanessa Alvarado
 3. [Executive Summary](https://github.com/VPNA09/Stackoverflow-NLP/blob/master/readme.md#executive-summary)
 	- [Data Acquisition](https://github.com/VPNA09/Stackoverflow-NLP/blob/master/readme.md#data-acquisition)
 	- [Data Cleaning](https://github.com/VPNA09/Stackoverflow-NLP/blob/master/readme.md#data-cleaning) 
-	- [Feature Engineering](https://github.com/VPNA09/Stackoverflow-NLP/blob/master/readme.md#feature-engineering)  
+<!--- - [Feature Engineering](https://github.com/VPNA09/Stackoverflow-NLP/blob/master/readme.md#feature-engineering) ---> 
 	- [Exploratory Data Analysis](https://github.com/VPNA09/Stackoverflow-NLP/blob/master/readme.md#exploratory-data-analysis)
 	- [Modeling](https://github.com/VPNA09/Stackoverflow-NLP/blob/master/readme.md#modeling)
 4. [Data](https://github.com/VPNA09/Stackoverflow-NLP/blob/master/readme.md#data) 
@@ -31,7 +31,7 @@ By: Vanessa Alvarado
 - Summarize NLP ? 
 
 ## Problem Statement
-Programmers from all levels scour the web for the best answers for common to more challenging tasks. More times than not, Google directs you to a Stack Overflow [forum](https://stackoverflow.com/questions/53645882/pandas-merging-101): 
+Programmers from all levels scour the web for answers for common to more challenging tasks. More times than not, Google directs you to a Stack Overflow [forum](https://stackoverflow.com/questions/53645882/pandas-merging-101): 
 
 <p align = "center">
   <img src="images/google stackoverflow search.png"/><br>
@@ -46,38 +46,48 @@ Programmers from all levels scour the web for the best answers for common to mor
 --->
 
 
-It's a fairly easy process to ask question on Stack Overflow. As I browsed through the website I noticed that not all posts had tags associated with them. There is no mandatory requirement to tag your question. To increase your odds of getting an answer to your coding dilema, it would be in your best interest to add any and all relevent tags. To increase Stack Overflows answered questions quota I will use Natural Language Processing(NLP) to create a predictve coding language tagging model. 
+It's a fairly easy process to ask question on Stack Overflow. As I browsed through the website I noticed that not all posts had tags associated with them. There is no mandatory requirement to tag your question. To increase your odds of getting an answer to your coding dilema, it would be in your best interest to add any and all relevent tags. If Stack Overflow implemented a tagging suggestions system based on your question for easy access answered questions quota I will use Natural Language Processing(NLP) to create a predictve coding language tagging model. 
+
+- Stackoverflow always suggests that you search their website before asking a new question, see if your question has already been answered. If you aren't able to find the answer you need, you can go ahead and ask a question. When you ask a question on Stackoverflow, once you start writing your titile you are given a "similar questions" suggestion box. to help guide you to the answer to your question or something similar.  
 
 ## Executive Summary
 
 ### Data Acquisition
-- Where did you get your data? / How did you acquire your data? (what did I actually end up with)
+- Where did you get your data? / How did you acquire your data?
+- what did I actually end up with 
+	- Missing approximately 52 days of data because of the query inputs I used. I don't believe those 52 days will make or break my project, but will go back and get the missing information and use for future iterations of my project. (DO I WANT TO ADD THIS TO MY README? PROBABLY NOT A GOOD IDEA, JSUT NEED TO FIGURE OUT WHAT I DID WRONG WITH MY QUERY AND GO BACK AND FIX IT)
 
 
 Stack Overflows parent company, [Stack Exchange](https://stackexchange.com/) releases "data dumps" of all its publically available content around every 3 months via [archive.org](https://archive.org/details/stackexchange). The data is an anonymized dump of all user-contributed content on the Stack Exchange network. Stack Overflow has several XML files zipped and split up into the following categories: 
-	- Badges
-	- Comments
-	- PostHistory 
-	- PostLinks
-	- Posts
-	- Tags
-	- Users
-	- Votes 
+
+- Badges
+- Comments
+- PostHistory 
+- PostLinks
+- Posts
+- Tags
+- Users
+- Votes 
 
 The items of interest were: PostHistory and Posts with 25.7GB and 14.6GB zipped files   
 
 ### Data Cleaning
-#### 2019 Weekly Data
-- 
 
-#### 2019 Combined Data  
+Thanfully there wasn't much cleaning that needed to be done to my data since I was the one to query the data. I picked, what I felt would be the most useful information for my project in addtion to columns that could be interesting to use for any future work. 
+
+To streamline the process of combining 52 weeks of data I created a function to do the work. The output was a csv file with over 1.8 million rows of data. 
+
+Next step was to clean this .csv file to only include my "target" languages: SQL, Scala, R, Julia, C++ and Python.  
+ 
 - 
 
 #### Final (For Modeling) 
 - 
 
-### Feature Engineering
+<!---### Feature Engineering
 - How did you transform or engineer your data? Why?
+- Didn't feature engineer any columns for this project 
+--->
 
 ### Exploratory Data Analysis (EDA)
 - 
