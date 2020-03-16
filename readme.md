@@ -95,7 +95,6 @@ The items of interest were: PostHistory and Posts with 25.7GB and 14.6GB zipped 
 ## Data 
 <p align = "center">
   <img src="images/wordcloud_topwords4.png"/><br>
-   <>Top Words Used</>
 </p>
 
 
