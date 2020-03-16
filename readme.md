@@ -12,7 +12,6 @@ By: Vanessa Alvarado
 3. [Executive Summary](https://github.com/VPNA09/Stackoverflow-NLP/blob/master/readme.md#executive-summary)
 	- [Data Acquisition](https://github.com/VPNA09/Stackoverflow-NLP/blob/master/readme.md#data-acquisition)
 	- [Data Cleaning](https://github.com/VPNA09/Stackoverflow-NLP/blob/master/readme.md#data-cleaning) 
-<!--- - [Feature Engineering](https://github.com/VPNA09/Stackoverflow-NLP/blob/master/readme.md#feature-engineering) ---> 
 	- [Exploratory Data Analysis](https://github.com/VPNA09/Stackoverflow-NLP/blob/master/readme.md#exploratory-data-analysis)
 	- [Modeling](https://github.com/VPNA09/Stackoverflow-NLP/blob/master/readme.md#modeling)
 4. [Data](https://github.com/VPNA09/Stackoverflow-NLP/blob/master/readme.md#data) 
@@ -86,10 +85,6 @@ I noticed there were a fair amount of tags that had overlapping languages. For e
 
 Since I am going to use NLP for modeling I knew I was going to need to clean the "body" of the data. I created a function that used BeautifulSoup to remove the majority of HTML tag artifacts. Then it removed any non-letter characters and lowercased the remaining letters. Now my data was ready for EDA.  
 
-<!---### Feature Engineering
-- How did you transform or engineer your data? Why?
-- Didn't feature engineer any columns for this project 
---->
 
 ### Exploratory Data Analysis (EDA)
 
