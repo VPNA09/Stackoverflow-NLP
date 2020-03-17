@@ -48,21 +48,21 @@ There isn't one programmer that has all the answers to every coding question. Wh
 --->
 
 
-If you are lucky, there is a well documented section with answers that you can use for your task. Sometimes, you can't find the answer so you'll have to post to Stack Overflow. 
+If you are lucky, there is a well documented section with answers that you can use for your task. Sometimes, you can't find the answer you need so you'll have to post a question onto Stack Overflow. 
 
-As I browsed through the website I noticed that not all posts had tags associated with them. There is no mandatory requirement to tag your question. To increase your odds of getting an answer to your coding dilema, it would be in your best interest to add any and all relevent tags. 
+As I browsed through the website I noticed that not all posts had tags associated with them. There is no mandatory requirement to tag your question. To increase your odds of getting an answer to your coding dilema, you should add any, and all relevent tags. 
 
-If Stack Overflow implemented a tagging suggestions system based on your question for easy access answered questions quota I will use Natural Language Processing(NLP) to create a predictve coding language tagging model. 
+Stackoverflow always suggests that you search their website before asking a new question, see if your question has already been answered. If you aren't able to find the answer you need, you can go ahead and ask a question. When you ask a question on Stackoverflow, once you start writing your titile you are given a "similar questions" suggestion box. This suggestion system is meant to help guide you to a forum that might already have the answer to your question. If Stack Overflow implemented a similar system to suggest tags based on your question, I believe it will increase your odds of getting your question answered. My first step towards getting a tagging recommender system started will be to use Natural Language Processing (NLP) and create a predictve coding model.
 
-- Stackoverflow always suggests that you search their website before asking a new question, see if your question has already been answered. If you aren't able to find the answer you need, you can go ahead and ask a question. When you ask a question on Stackoverflow, once you start writing your titile you are given a "similar questions" suggestion box. to help guide you to the answer to your question or something similar.  
 
 ## Executive Summary
 
 ### Data Acquisition
+<!---
 - Where did you get your data? / How did you acquire your data?
 - what did I actually end up with 
 	- Missing approximately 52 days of data because of the query inputs I used. I don't believe those 52 days will make or break my project, but will go back and get the missing information and use for future iterations of my project. (DO I WANT TO ADD THIS TO MY README? PROBABLY NOT A GOOD IDEA, JSUT NEED TO FIGURE OUT WHAT I DID WRONG WITH MY QUERY AND GO BACK AND FIX IT)
-
+--->
 
 Stack Overflows parent company, [Stack Exchange](https://stackexchange.com/) releases "data dumps" of all its publically available content around every 3 months via [archive.org](https://archive.org/details/stackexchange). The data is an anonymized dump of all user-contributed content on the Stack Exchange network. Stack Overflow has several XML files zipped and split up into the following categories: 
 
@@ -75,9 +75,9 @@ Stack Overflows parent company, [Stack Exchange](https://stackexchange.com/) rel
 - Users
 - Votes 
 
-The items of interest were: PostHistory and Posts with 25.7GB and 14.6GB zipped files   
+The items of interest were: PostHistory and Posts. Both respected zipped files were 25.7GB and 14.6GB. I didn't have the time or resources to be able to parse through such large datasets. 
 
-Stackoverflow Query 
+Stackoverflow offers a more managable way to query data by using their [Data Explorer.](https://data.stackexchange.com/stackoverflow/query/new) 
 
 
 ### Data Cleaning
