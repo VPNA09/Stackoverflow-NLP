@@ -77,7 +77,10 @@ Stack Overflows parent company, [Stack Exchange](https://stackexchange.com/) rel
 
 The items of interest were: PostHistory and Posts. Both respected zipped files were 25.7GB and 14.6GB. I didn't have the time or resources to be able to parse through such large datasets. 
 
-Stackoverflow offers a more managable way to query data by using their [Data Explorer.](https://data.stackexchange.com/stackoverflow/query/new) 
+Stack Overflow offers a more managable way to query data by using their [Data Explorer.](https://data.stackexchange.com/stackoverflow/query/new) There were limitations with using this service, first being, the limit on data you are able to query at one time. There was a max of 50,000 lines of data per query, which is why I decided to go with weekly queries. This did take time, but I was able to specify exactly what data columns. For instance, I decided to only query for data that had tags, since I knew I wanted to implement a supervised model.
+
+Once I had weekly .csv files for 2019, I was able to move onto cleaning the data. 
+
 
 
 ### Data Cleaning
@@ -171,24 +174,26 @@ Data files are too large upload to GitHub. The following links are zipped data f
 ## Conclusions and Future Work 
 
 ### Conclusions 
-- What were your findings?
-- What risks/limitations/assumptions affect these findings?
-	- Limitations: 
-		- 
-- Summarize your statistical analysis, including:
-	- implementation
-	- evaluation
-	- inference *** python language 
+
+I was able to sucessfully build 3 different models to help predict language tags for Stack Overflow's questions for 2019. Baseline accuracy was 55.23%. The model that I would suggest to be put into production would be the Logistic Regression + TF-IDF model. It had the highest testing accuracy: 91.24%. Which means that this model is able to succesfully explain 91.24% variations. 
+
+Even though I only looked at 2019 data and focused on 6 languagues, I did notice something very interesting. 55% of those questions were related to python. There have been countless articles referencing how Python has been growing substantially in popularity. Using Stack Overflow's data from 2019, I believe this is another example of Python's growing demand.
 
 <p align = "center">
   <img src="images/target_languages_pctweekly_questions.png"/><br>
   <b>Percent Weekly Questions for Target Languges</b>
 </p>
 
+The above graph shows how fast Python has grown since 2013 in comparision to SQL, Scala, C++, R and Julia. 
+
 
 ### Future Work
-- How can I build off what I have? 
-	- Cloud commuting
-	- Different NLP techniques 
-- Other data aquisition techniques 
-- to better answer this question, 
+There were a few limitations in my data that should be discused. 1st being that my modeling only looked at 6 different coding languages: SQl, Scala, C++, Julia, Python and R. So my model as is, would only be helpful in tagging those 6 langaguges. My model also doesn't take into account questions that might have multiple languages that overlap, for example: SQL and Python. Another limitation was the data itself, I only looked at 2019 data for my first run modeling. 
+
+With that being said, there's alot of room to grow from here. I was able to prove proof of concept on a smaller dataset. Next versions can include more years of data and more coding langugages. To do this efficiently I would suggest using a cloud computing service like Amazon Web Services (AWS). 
+
+The models I alredy tested can be exanded on by addding more hyperparameters to gridsearch over. Another way to build off what I have so far would be to implement different modeling techiques. For instance, I wanted to try Random Forests but wasn't able to fit the model because of limitations in time and computing power. That's where using AWS would be beneficial. 
+
+I had two other techniques I wanted to look into further, Word2Vect and Global Vectors (GloVe). Word2Vect utilizes Recurrent Neural Netowrks (RNN) to determine the context behind each word. GloVe is an unsupervised learning algorithm for obtaining vector representations for words. Training is performed on aggregated global word-word co-occurrence statistics from a corpus, and the resulting representations showcase interesting linear substructures of the word vector space. I wasn't able to implement either of these techniques, but look forward to learning more about them an how I can use them for future iterations of my project. 
+
+
